@@ -1,0 +1,6 @@
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/main_photo.png);
+    margin-bottom: 1000px;
+}
