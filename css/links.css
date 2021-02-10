@@ -27,7 +27,56 @@
 }
 .changing-text {
     text-align: center;
-    margin-bottom: 25px;
+    margin: 30px;
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.459);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.473);
+
+}
+.change:before {
+    content: "W";
+    animation: text 2s infinite 0s;
+    animation-direction: alternate-reverse;
+
+
+}
+@keyframes text {
+    0% {
+        content: "W";
+    }
+    9% {
+        content: "We";
+    }
+    18% {
+        content: "Web";
+    }
+    27% {
+        content: "Web ";
+    }
+    36% {
+        content: "Web D";
+    }
+    45% {
+        content: "Web De";
+    }
+    54% {
+        content: "Web Des";
+    }
+    63% {
+        content: "Web Desi";
+    }
+    72% {
+        content: "Web Desig";
+    }
+    81% {
+        content: "Web Design";
+    }
+    90% {
+        content: "Web Designe";
+    }
+    100% {
+        content: "Web Designer";
+    }
 }
 .socials {
     display: flex;
