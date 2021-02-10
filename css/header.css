@@ -22,6 +22,9 @@
 .nav-active > .container > .links > a {
     color: black;
 }
+.nav-active > .container > .links > a:hover {
+    color: rgb(226, 84, 84);
+}
 
 .links > a {
     display: inline-block;
@@ -35,9 +38,6 @@
 .links > a:hover {
     color: rgb(226, 84, 84);
 }
-/* .links > a:nth-child(1) {
-    color: rgb(226, 84, 84);
-} */
 .nav-bar > .container > .white-logo {
     display: block;
     height: 50px;

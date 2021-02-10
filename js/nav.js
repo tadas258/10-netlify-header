@@ -22,8 +22,4 @@ window.onscroll = () => {
 
 };
 
-// window.onscroll = () => {
-//     if (window.scrollY > 100) {
-//         nav
-//     }
-// }
+
