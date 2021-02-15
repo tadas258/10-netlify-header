@@ -35,8 +35,8 @@
 }
 .change:before {
     content: "W";
-    animation: text 2s infinite 0s;
-    animation-direction: alternate-reverse;
+    animation: text 1.5s infinite 0s;
+    animation-direction:  alternate-reverse;
 
 
 }
@@ -77,6 +77,7 @@
     100% {
         content: "Web Designer";
     }
+    
 }
 .socials {
     display: flex;
