@@ -1,8 +1,7 @@
 .header {
-    width: 100%;
-    min-height: 100vh;
-    background-image: url(../img/main_photo.png);
-    background-size: cover;
-    background-attachment: fixed;
-    margin-bottom: 1000px;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/main_photo.png);
+  background-attachment: fixed;
+  margin-bottom: 100px;
 }

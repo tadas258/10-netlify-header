@@ -1,0 +1,43 @@
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 80px;
+  height: 90vh;
+}
+.about-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+  width: 1000px;
+}
+.portfolio-img {
+  width: 50%;
+}
+.portfolio-img > img {
+  height: 600px;
+}
+.about-me-info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.about-me-info > h2 {
+  font-size: 38px;
+  font-weight: 100;
+  border-bottom: 1px solid purple;
+  margin-bottom: 40px;
+}
+.personal-info > h3 {
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.personal-info > p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 100;
+  margin: 25px 0;
+}
