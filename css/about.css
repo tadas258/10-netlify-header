@@ -23,11 +23,12 @@
   width: 60%;
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 .about-me-info > h2 {
   font-size: 38px;
   font-weight: 100;
-  border-bottom: 1px solid purple;
+  border-bottom: 1px solid rgb(226, 84, 84);
   margin-bottom: 40px;
 }
 .personal-info > h3 {
@@ -40,4 +41,74 @@
   line-height: 25px;
   font-weight: 100;
   margin: 25px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.308);
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.contacts-left > h4,
+.contacts-right > h4 {
+  padding: 10px 0;
+  font-weight: 100;
+}
+h4 > span {
+  text-transform: uppercase;
+  color: rgba(128, 128, 128, 0.801);
+  font-weight: 600;
+  margin-right: 8px;
+}
+.resume-hire {
+  display: flex;
+  flex-direction: row;
+}
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  width: 210px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 13px 25px;
+  line-height: 20px;
+  background-color: rgba(226, 84, 84, 0.705);
+  background-color: rgba(226, 84, 84, 0.692);
+  background-image: linear-gradient(white, white);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.hire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  width: 130px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 20px;
+  padding: 13px 25px;
+  line-height: 20px;
+  background-color: rgba(226, 84, 84, 0.692);
+  background-image: linear-gradient(white, white);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+
+.hire:hover,
+.resume:hover {
+  background-size: 100% 100%;
+  color: black;
 }
